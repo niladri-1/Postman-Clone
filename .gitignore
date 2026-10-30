@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+dist-electron/
+out/
+release/
+
+# logs & OS junk
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# scratch previews (regenerable via `npm run icons` + preview scripts)
+build/preview-*.png
+
+# local runtime data (seeds, caches)
+app-data/
+*.tmp
